@@ -1,0 +1,175 @@
+ 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #2c3e50;
+}
+
+.div-wrapper {
+    max-width: 1100px;
+    margin: 0 auto; 
+    background-color: #ffffff;
+}
+
+.header-container {
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #34495e; 
+}
+
+.brand-title {
+    font-size: 28px;
+    margin-bottom: 5px; 
+}
+
+.brand-tagline {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+.content-area {
+    padding: 20px; 
+}
+
+.section-block {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0; 
+    padding: 30px;            
+    margin-bottom: 30px;      
+    border-radius: 8px;
+}
+
+.bg-accent {
+    background-color: #f8fafc;
+}
+
+.section-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db; 
+}
+
+.row-layout {
+    display: table;
+    width: 100%;
+    /* Mengatur jarak antar sel layaknya kolom */
+    border-collapse: separate;
+    border-spacing: 20px 0; 
+}
+
+.car-card {
+    display: table-cell;
+    width: 50%; 
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;   
+    border-radius: 6px;
+    vertical-align: top;         
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.card-image-box {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+.car-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px; 
+}
+
+.card-body h3 {
+    margin-bottom: 10px; 
+}
+
+.car-price {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.car-desc {
+    font-size: 14px;
+    color: #64748b;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 18px; 
+}
+
+.form-label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 14px; 
+    font-size: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    background-color: #ffffff;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none; 
+    padding: 12px; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #2980b9;
+}
+
+.footer-container {
+    text-align: center;
+    background-color: #1a252f;
+    color: #bdc3c7;
+    padding: 20px;
+    font-size: 13px;
+    border-top: 3px solid #34495e;
+}
